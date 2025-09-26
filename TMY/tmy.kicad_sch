@@ -4099,6 +4099,39 @@
 		)
 		(uuid "055d0875-2d0c-45da-8808-e476c3552c3b")
 	)
+	(text "~{CS}"
+		(exclude_from_sim no)
+		(at 270.51 106.934 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "14688274-a391-4d89-bfe7-7b03390398a5")
+	)
+	(text "DI"
+		(exclude_from_sim no)
+		(at 270.51 111.76 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1668ff64-51ef-4d87-99f8-5b1abcefe917")
+	)
+	(text "~{RST}"
+		(exclude_from_sim no)
+		(at 270.256 104.394 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "24c7b847-a1fb-4664-8e1e-d7471819be04")
+	)
 	(text "TIM1_CH4"
 		(exclude_from_sim no)
 		(at 152.654 139.954 0)
@@ -4120,6 +4153,17 @@
 			(justify right)
 		)
 		(uuid "4214475e-91da-4804-8ef9-2ae43469d5b4")
+	)
+	(text "SCK"
+		(exclude_from_sim no)
+		(at 270.51 109.474 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "762f0b6f-52e2-4de5-a164-5bb822211fbd")
 	)
 	(text "SWCLK"
 		(exclude_from_sim no)
@@ -4153,6 +4197,28 @@
 			(justify left)
 		)
 		(uuid "86076a96-65d0-4c0b-bc17-c72e6ef8712e")
+	)
+	(text "GND"
+		(exclude_from_sim no)
+		(at 270.51 114.3 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "86b63a63-fa6f-4cd7-85fc-f9be7fd95dc2")
+	)
+	(text "GND"
+		(exclude_from_sim no)
+		(at 270.256 96.774 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9eb7499a-52a1-4d50-ab9b-6b6e48189d32")
 	)
 	(text "TIM1_CH1"
 		(exclude_from_sim no)
@@ -4198,6 +4264,17 @@
 		)
 		(uuid "c78d6d43-7cf4-414d-b14d-9e0f3f066a73")
 	)
+	(text "ANODE"
+		(exclude_from_sim no)
+		(at 270.256 94.234 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cb0b695a-f1cd-44d2-9022-6d6395e5c4a4")
+	)
 	(text "SPI1_MOSI"
 		(exclude_from_sim no)
 		(at 153.67 129.794 0)
@@ -4208,6 +4285,39 @@
 			(justify right)
 		)
 		(uuid "dbea3906-df87-49d3-b4fb-441776a51768")
+	)
+	(text "CATHODE"
+		(exclude_from_sim no)
+		(at 270.256 91.694 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e8025f2a-5565-45ac-a50d-6b3ed29fd73c")
+	)
+	(text "D/C"
+		(exclude_from_sim no)
+		(at 270.256 101.854 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "eae3576a-6a19-4f27-9c3d-9f22f3fd7e3e")
+	)
+	(text "VDD"
+		(exclude_from_sim no)
+		(at 270.256 99.314 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ef82deba-4ec3-4a3d-97cf-9707e75f57cf")
 	)
 	(junction
 		(at 91.44 57.15)
@@ -7981,10 +8091,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "59dabb9d-8deb-4877-9ab3-692ee122753c")
 		(property "Reference" "J3"
-			(at 270.51 101.9555 0)
+			(at 266.7 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7993,7 +8102,7 @@
 			)
 		)
 		(property "Value" "LCD"
-			(at 270.51 104.4955 0)
+			(at 266.7 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
