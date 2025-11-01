@@ -4137,6 +4137,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "CURR asserts low\nto increase charge\ncurrent to 2.2A\nfor vaping while\ncharging"
+		(exclude_from_sim no)
+		(at 135.128 68.326 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ecab910f-f25a-403b-a302-082f08bf8f37")
+	)
 	(junction
 		(at 265.43 34.29)
 		(diameter 0)
@@ -10202,7 +10212,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "PD64SH4BDPL2"
+		(property "Value" "P25Q64SH"
 			(at 207.01 143.5099 0)
 			(effects
 				(font
@@ -10231,6 +10241,15 @@
 		)
 		(property "Description" "3.0V, Standard/Dual/Quad Serial Flash, WSON-8"
 			(at 195.58 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Topmark" "PD64SH4BDPL2"
+			(at 195.58 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10419,10 +10438,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "9f568447-a863-4fa6-aa58-35dba7df1d60")
 		(property "Reference" "SW2"
-			(at 55.88 172.72 0)
+			(at 56.134 169.672 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10430,7 +10448,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 55.88 175.26 0)
+			(at 56.134 172.212 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10462,6 +10480,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "MPN" "Xunpu TS-1077S-01526"
+			(at 64.262 175.006 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
